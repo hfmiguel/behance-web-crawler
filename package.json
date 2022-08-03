@@ -3,13 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon ./index.js"
+  },
   "dependencies": {
     "behance-node": "^0.1.0",
     "express": "^4.17.2"
   },
-  "scripts": {
-    "start": "node index.js"
-  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },  
   "eslintConfig": {
     "extends": [
       "react-app",

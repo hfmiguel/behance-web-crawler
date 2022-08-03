@@ -12,7 +12,7 @@ services:
     command:
       - -c
       - |
-        node index.js
+        npm run dev
     ports:
       - 3010:3000
       - 3013:3000
